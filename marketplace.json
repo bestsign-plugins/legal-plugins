@@ -1,0 +1,24 @@
+{
+  "name": "legal-plugins",
+  "owner": {
+    "name": "BestSign Legal AI",
+    "url": "https://github.com/bestsign-plugins"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "BestSign 智能法务插件目录"
+  },
+  "plugins": [
+    {
+      "name": "legal-ai",
+      "source": "./plugins/legal-ai",
+      "category": "productivity",
+      "tags": [
+        "skill",
+        "mcp",
+        "legal-ai"
+      ],
+      "strict": true
+    }
+  ]
+}

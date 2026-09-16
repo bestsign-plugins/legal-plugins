@@ -1,0 +1,27 @@
+{
+  "name": "legal-ai",
+  "displayName": "智能法务",
+  "version": "1.0.0",
+  "description": "BestSign Legal AI skill bundle: multiple legal skills sharing one MCP server and one OAuth authorization. Currently provides deep contract risk review (upload local Word/PDF contracts, confirm stance/jurisdiction/language, run an LLM risk review, download the structured report); more skills to follow.",
+  "descriptionZh": "上上签智能法务技能集合：插件内多个法务技能（Skill）共用同一个 Legal AI MCP 服务与一次 OAuth 授权。当前提供「合同深度审查」——将本地合同（Word/PDF）上传至云端审查引擎，按用户立场/法域/语言执行大模型深度风险审查，并下载结构化审查报告；后续版本陆续增加其他法务技能。",
+  "author": {
+    "name": "BestSign Legal AI"
+  },
+  "homepage": "https://mcp-legal-jp.bestsign.com",
+  "logo": "./assets/avatar.svg",
+  "keywords": [
+    "qoder-plugin",
+    "skill",
+    "legal",
+    "contract-review",
+    "mcp"
+  ],
+  "category": "productivity",
+  "tags": [
+    "skill",
+    "mcp",
+    "legal-ai"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,5 @@
+# 系统与工具残留，不进发布仓
+.DS_Store
+__MACOSX/
+*.bak
+*.bak-*
